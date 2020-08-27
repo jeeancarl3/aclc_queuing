@@ -1,0 +1,246 @@
+body {
+  /*background: url("../../images/bg.fw.png") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-position-y:80px;*/
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0;
+  background-color: #18355B;
+  color: white;
+  text-align: center;
+  font-family: arial;
+}
+
+.page-header{
+  margin-top: 0px !important;
+  border-bottom: none !important;
+  padding: 5px;
+  background-color: #00698C;
+  height: auto;
+}
+
+.page-header h3{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+/*=================================================LOG IN=======================================================*/
+.logIn form, 
+.window form {
+  box-shadow: 5px 5px 18px #888 !important;
+  width: 320px;
+    height: 420px;
+    background: #fff;
+    color: #3257BD;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    font-family: Arial;
+}
+.logIn h1, .window h1{
+    margin: 0;
+    padding: 0 0 10px;
+    color: #00468c;
+    font-family: impact regular;
+    font-size: 22px;
+}
+
+.logIn input,
+.window select, 
+.window input
+{
+    border: none;
+    border-bottom: 1px solid #0abfbf;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #3257BD;
+    font-size: 14px;
+}
+
+.logIn button,
+.window button {
+  border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background: #3257BD;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 0px;
+    font-family: impact regular;
+    font-size: 18px;
+}
+
+.window select,
+.logIn input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logIn input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #5C7EDD;
+    color: #fff;
+}
+
+.logIn label{
+    font-size: 12px;
+    color: darkgrey;
+    display: inline-block
+}
+
+.logIn a{
+    text-decoration: none !important;
+    font-size: 12px;
+    color: #F3732F;
+    margin: 100px;
+}
+
+.logIn a:hover
+{
+    color: darkgrey;
+}
+
+.window p{
+  font-size: 20px;
+}
+
+/*=====================================KIOSK==========================================*/
+  
+.kiosk{
+  margin-top: 15%;
+}
+
+.finance, .registrar, .edp{
+  margin-top: 5%;
+}
+
+
+.kContainer {   /*row container each transaction*/   
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.kMargin {
+  padding-left: 0 !important;
+  padding-right:0 !important;
+}
+
+/*--------kiosk logo transaction-------*/
+.first-img{
+  background-color: #ffd24d;
+
+  } 
+.second-img{
+  background-color: #003366;
+} 
+.third-img   {
+  background-color: #00b2b2;
+}
+
+.finance-img{
+  background-color: #ffd24d;
+}
+
+.registrar-img{
+  background-color: #003366
+}
+
+.edp-img{
+  background-color: #00b2b2;
+}
+/*-----------------------------------*/
+
+.kiosk p {
+  font-size: 20px;
+  color: #003366;
+  margin-left: 40%;
+}
+.finance p{
+  font-size: 20px;
+  color: #ffd24d;
+  margin-top: 15%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.registrar p{
+  font-size: 20px;
+  color: #003366;
+  margin-top: 15%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.edp p{
+  font-size: 20px;
+  color: #00b2b2;
+  margin-top: 15%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+
+
+/*.modal-btn { 
+  text-align: center;
+}*/
+
+.modal-content{
+  margin:20% auto;
+
+}
+
+/*.modal-header{
+  background-color:#0f4c82;
+  color: #fff;
+}*/
+
+/*===================================================MONITOR====================================================*/
+
+.colMonitor b{
+  font-family: Franklin Gothic Heavy;
+  font-size: 60px !important;
+  /*margin-left: 30px;*/
+  color: black;
+}
+
+.monitor-header{
+  font-family: "Gill Sans MT";
+  background-color:  #FFFFFF;
+  color: #00698C;
+  font-weight: normal;
+  font-size:30px;
+}
+
+.colMonitor p{
+  font-family: "Franklin Gothic Heavy";
+  margin-top: 9px; 
+  color: black;
+}
+.transButton{
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width:15%;
+  height: 50px;
+}
